@@ -2,7 +2,7 @@ package behaviour;
 
 public interface IDefend {
 
-    int takeDamage(int damage);
+    void takeDamage(int damage);
     Boolean isAlive();
 
 }
